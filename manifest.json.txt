@@ -1,0 +1,8 @@
+{
+  "name": "Maccabi Haifa",
+  "short_name": "MHAIFA",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#06281a",
+  "theme_color": "#22c55e"
+}

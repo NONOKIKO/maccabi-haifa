@@ -1,0 +1,12 @@
+window.login = function(){
+  document.getElementById("login").style.display = "none";
+  document.getElementById("app").style.display = "block";
+  document.getElementById("dashboard").innerText =
+    "סטטוס: אוהד רשום | מושב מועדף: יציע מערבי";
+};
+
+document.addEventListener("click", function(e){
+  if(e.target.classList.contains("seat")){
+    e.target.classList.toggle("selected");
+  }
+});

@@ -1,0 +1,28 @@
+body {
+  background:#06281a;
+  color:white;
+  font-family:Arial;
+  text-align:center;
+}
+
+input, button {
+  padding:12px;
+  margin:6px;
+  border-radius:8px;
+  border:none;
+}
+
+button {
+  background:#22c55e;
+  font-size:16px;
+  cursor:pointer;
+}
+
+svg .seat {
+  fill:#14532d;
+  cursor:pointer;
+}
+
+svg .seat.selected {
+  fill:#22c55e;
+}
